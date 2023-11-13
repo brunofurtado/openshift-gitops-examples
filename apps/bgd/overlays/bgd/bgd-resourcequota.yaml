@@ -1,0 +1,12 @@
+kind: ResourceQuota
+apiVersion: v1
+metadata:
+  name: quota-bgd
+  namespace: bgd
+spec:
+  hard:
+    limits.cpu: '2'
+    limits.memory: 2Gi
+    pods: '4'
+    requests.cpu: '1'
+    requests.memory: 1Gi
