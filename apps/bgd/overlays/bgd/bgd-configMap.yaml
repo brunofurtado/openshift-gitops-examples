@@ -5,4 +5,4 @@ metadata:
   namespace: bgd
 data:
   color: "blue"
-  secondColor: "red"
+  secondColor: "green"
